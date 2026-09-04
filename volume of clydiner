@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float l;
+    float h;
+    float r;
+    printf("Enter the Value of Radius anf height");
+    scanf("%f %f", &l,&h);
+    r = l * l * 3.14 * h;
+    printf("The answer is=%f", r);
+    return 0;
+}
